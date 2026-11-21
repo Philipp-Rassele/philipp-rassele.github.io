@@ -5,8 +5,8 @@ const nav = ["About", "Experience", "Skills", "Certifications", "Education", "Co
 
 const experience = [
   {
-    title: "Developer – Konverto LAB", when: "Dec 2022 – today", org: "KONVERTO · Bolzano",
-    text: "Developer in Konverto's innovation unit, working on data science, machine learning and AI projects, along with other software projects.",
+    title: "Developer", when: "Dec 2022 – today", org: "Konverto LAB department · KONVERTO, Bolzano",
+    text: "Developer in the Konverto LAB department, working on data science, machine learning and AI projects, along with other software projects.",
     tags: ["Azure", "Databricks", "MLflow", "Python", "AI models", "ML algorithms", "React", "Vue", "CI/CD", "Power BI"],
   },
   {
@@ -98,7 +98,7 @@ export default function App() {
             <div class="eyebrow">Data Science · Machine Learning · Analytics</div>
             <h1>Hi, I'm Philipp.<br />I turn data into useful products.</h1>
             <p class="lead">
-              I'm a developer in the Konverto LAB in Bolzano, South Tyrol. I build data science, machine learning
+              I'm a developer in the Konverto LAB department at Konverto in Bolzano, South Tyrol. I build data science, machine learning
               and AI solutions on Azure and Databricks, from the data pipeline through the model to the dashboard
               or web app people actually use.
             </p>
