@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philipp Rassele · Data Scientist & Developer</title>
+<meta name="description" content="Philipp Rassele – Data Science & AI developer at Konverto LAB in Bolzano. Azure, Databricks, MLflow, Python, Power BI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f8fa; --surface: #fff; --text: #1b1f27; --muted: #5b6372;
+    --line: #e3e6ec; --accent: #0b6bcb; --accent-soft: #e6f0fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1218; --surface: #171b23; --text: #e8ebf0; --muted: #9aa3b2;
+            --line: #2a303b; --accent: #5aa9f5; --accent-soft: #1a2a3d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+  nav { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 85%, transparent);
+        backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 56px; gap: 16px; }
+  nav .brand { font-weight: 700; color: var(--text); }
+  nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; flex-wrap: wrap; }
+  nav ul a { color: var(--muted); font-size: 14px; font-weight: 500; }
+
+  header.hero { padding: 88px 0 64px; }
+  .hero .eyebrow { color: var(--accent); font-weight: 600; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
+  .hero h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1.1; margin: 8px 0 16px; letter-spacing: -.02em; }
+  .hero p.lead { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 0 28px; }
+  .btns { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 10px 18px; border-radius: 8px; font-weight: 600; font-size: 15px;
+         border: 1px solid var(--accent); }
+  .btn.primary { background: var(--accent); color: #fff; }
+  .btn:hover { text-decoration: none; opacity: .9; }
+
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.5rem; margin: 0 0 24px; letter-spacing: -.01em; }
+  h3 { font-size: 1.05rem; margin: 0; }
+  .muted { color: var(--muted); }
+
+  .timeline { display: grid; gap: 16px; }
+  .item { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; }
+  .item .head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+  .item .when { color: var(--muted); font-size: 14px; white-space: nowrap; }
+  .item .org { color: var(--accent); font-weight: 500; font-size: 15px; }
+  .item p { margin: 10px 0 0; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; padding: 0; list-style: none; }
+  .tags li { background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 3px 12px; font-size: 13px; font-weight: 500; }
+
+  .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .skills .item h3 { margin-bottom: 4px; }
+
+  .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .badge { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+
+  footer { padding: 40px 0 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Philipp Rassele</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Data Science · Machine Learning · Analytics</div>
+      <h1>Hi, I'm Philipp.<br>I turn data into useful products.</h1>
+      <p class="lead">
+        I'm a developer in the Konverto LAB in Bolzano, South Tyrol. I build data science, machine learning
+        and AI solutions on Azure and Databricks, from the data pipeline through the model to the dashboard
+        or web app people actually use.
+      </p>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="https://www.linkedin.com/in/philipp-r-353944216/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About me</h2>
+      <p>
+        I hold a Master's degree in <strong>Computational Data Science</strong> and a Bachelor's in
+        <strong>Computer Science and Engineering</strong>, both from the Free University of Bozen-Bolzano.
+        My Master's thesis was about <em>visual analytics for health and disease data</em> in the CHRIS study.
+        I built an interactive system that helps scientists explore large, complex biomedical datasets,
+        with the analyst kept in the loop.
+      </p>
+      <p>
+        Since then I've worked on both the business and the engineering side. At the Raiffeisenverband Südtirol I
+        supported the digitalisation programme and the business intelligence strategy. At Konverto I build
+        ML models, MLOps pipelines with MLflow and CI/CD, Power BI reports and React/Vue front-ends.
+      </p>
+      <p>
+        I like to work on my own and in an organised way, and I enjoy making complex information
+        easy to understand. I speak German natively, plus fluent English and good Italian.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="item">
+          <div class="head"><h3>Developer – Konverto LAB</h3><span class="when">Dec 2022 – today</span></div>
+          <div class="org">KONVERTO · Bolzano</div>
+          <p>Developer in Konverto's innovation unit, working on data science, machine learning and AI projects, along with other software projects.</p>
+          <ul class="tags">
+            <li>Azure</li><li>Databricks</li><li>MLflow</li><li>Python</li><li>AI models</li>
+            <li>ML algorithms</li><li>React</li><li>Vue</li><li>CI/CD</li><li>Power BI</li>
+          </ul>
+        </article>
+        <article class="item">
+          <div class="head"><h3>Junior IT Consultant</h3><span class="when">Nov 2021 – Oct 2022</span></div>
+          <div class="org">Raiffeisenverband Südtirol · Bolzano</div>
+          <p>Supported the digitalisation of the Raiffeisen association (IT RVS 4.0) and the further development of its internal business intelligence strategy.</p>
+        </article>
+        <article class="item">
+          <div class="head"><h3>Intern</h3><span class="when">Summers 2013 – 2017</span></div>
+          <div class="org">TechnoAlpin AG · Bolzano</div>
+          <p>Installed computers for snowmaking systems and configured the ATASS / ATASS Plus control software.</p>
+        </article>
+        <article class="item">
+          <div class="head"><h3>School internship</h3><span class="when">Jun 2014</span></div>
+          <div class="org">TIS Innovation Park · Bolzano</div>
+          <p>Built a small web project with AngularJS, Ajax, HTML, CSS and JavaScript.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="item">
+          <h3>Data & ML</h3>
+          <ul class="tags"><li>Python</li><li>Pandas</li><li>SciPy</li><li>R</li><li>MLflow</li><li>Spark ML</li><li>Machine Learning</li><li>MLOps</li></ul>
+        </div>
+        <div class="item">
+          <h3>Data Platforms</h3>
+          <ul class="tags"><li>Databricks</li><li>Apache Spark</li><li>Azure</li><li>Unity Catalog</li><li>Hadoop</li><li>SQL</li></ul>
+        </div>
+        <div class="item">
+          <h3>BI & Visualisation</h3>
+          <ul class="tags"><li>Power BI</li><li>Databricks AI/BI</li><li>Plotly</li><li>Visual Analytics</li></ul>
+        </div>
+        <div class="item">
+          <h3>Web & Software</h3>
+          <ul class="tags"><li>JavaScript</li><li>React</li><li>Vue</li><li>Node.js</li><li>PHP</li><li>Java</li><li>C#</li><li>Bash</li></ul>
+        </div>
+        <div class="item">
+          <h3>DevOps</h3>
+          <ul class="tags"><li>CI/CD pipelines</li><li>GitLab</li><li>Databricks Asset Bundles</li></ul>
+        </div>
+        <div class="item">
+          <h3>Modelling</h3>
+          <ul class="tags"><li>BPMN</li><li>ORM</li><li>UML</li><li>OWL / Semantic Web</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="wrap">
+      <h2>Certifications & Training</h2>
+      <div class="certs">
+        <div class="item"><div class="badge">Microsoft · Nov 2025</div><h3>Azure Data Scientist Associate</h3></div>
+        <div class="item"><div class="badge">Microsoft · Feb 2025</div><h3>Azure Data Engineer Associate</h3></div>
+        <div class="item"><div class="badge">Microsoft · Aug 2023</div><h3>Azure Fundamentals</h3></div>
+        <div class="item"><div class="badge">Microsoft · Aug 2022</div><h3>Power BI Data Analyst Associate</h3></div>
+        <div class="item">
+          <div class="badge">Databricks Training · 2026</div>
+          <h3><a href="https://www.databricks.com/training/catalog/advanced-machine-learning-with-databricks-3486" target="_blank" rel="noopener">Advanced Machine Learning with Databricks</a></h3>
+          <p class="muted">Scaling ML with Spark, tuning with Optuna & Ray, MLOps with MLflow, Unity Catalog, Lakeflow Jobs, Model Serving and drift monitoring.</p>
+        </div>
+        <div class="item">
+          <div class="badge">Databricks Training · 2026</div>
+          <h3><a href="https://www.databricks.com/training/catalog/aibi-for-data-analysts-3707" target="_blank" rel="noopener">AI/BI for Data Analysts</a></h3>
+          <p class="muted">Building and publishing AI/BI dashboards and Genie spaces on Unity Catalog data, with scheduling and permissions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2>Education</h2>
+      <div class="timeline">
+        <article class="item">
+          <div class="head"><h3>M.Sc. Computational Data Science</h3><span class="when">2018 – 2021</span></div>
+          <div class="org">Free University of Bozen-Bolzano · 103/110</div>
+          <p>Thesis: <em>Visual Analysis of Health and Disease Data in the CHRIS Study</em></p>
+        </article>
+        <article class="item">
+          <div class="head"><h3>B.Sc. Computer Science and Engineering</h3><span class="when">2015 – 2018</span></div>
+          <div class="org">Free University of Bozen-Bolzano · 93/110</div>
+          <p>Thesis: <em>A website for evaluating and managing topic models</em></p>
+        </article>
+        <article class="item">
+          <div class="head"><h3>Technical high school diploma (Matura)</h3><span class="when">2009 – 2015</span></div>
+          <div class="org">TFO Max Valier · Bolzano</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Want to talk about a data, ML or analytics project? I'd be happy to hear from you.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:philipp.rassele@outlook.de">philipp.rassele@outlook.de</a>
+        <a class="btn" href="https://www.linkedin.com/in/philipp-r-353944216/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Philipp-Rassele" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="y">2026</span> Philipp Rassele · South Tyrol, Italy</div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
