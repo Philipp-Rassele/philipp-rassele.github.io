@@ -7,7 +7,7 @@ const experience = [
   {
     title: "Developer", when: "Dec 2022 – today", org: "Konverto LAB department · KONVERTO, Bolzano",
     text: "Developer in the Konverto LAB department, working on data science, machine learning and AI projects, along with other software projects.",
-    tags: ["Azure", "Databricks", "MLflow", "Python", "AI models", "ML algorithms", "React", "Vue", "CI/CD", "Power BI"],
+    tags: ["Azure", "Databricks", "MLflow", "Python", "AI models", "ML algorithms", "React", "React Native", "Expo", "Vue", "CI/CD", "Power BI"],
   },
   {
     title: "Junior IT Consultant", when: "Nov 2021 – Oct 2022", org: "Raiffeisenverband Südtirol · Bolzano",
@@ -27,7 +27,7 @@ const skills = [
   ["Data & ML", ["Python", "Pandas", "SciPy", "R", "MLflow", "Spark ML", "Machine Learning", "MLOps"]],
   ["Data Platforms", ["Databricks", "Apache Spark", "Azure", "Unity Catalog", "Hadoop", "SQL"]],
   ["BI & Visualisation", ["Power BI", "Databricks AI/BI", "Plotly", "Visual Analytics"]],
-  ["Web & Software", ["JavaScript", "React", "Vue", "Node.js", "PHP", "Java", "C#", "Bash"]],
+  ["Web & Software", ["JavaScript", "React", "React Native", "Expo", "Vue", "Node.js", "PHP", "Java", "C#", "Bash"]],
   ["DevOps", ["CI/CD pipelines", "GitLab", "Databricks Asset Bundles"]],
   ["Modelling", ["BPMN", "ORM", "UML", "OWL / Semantic Web"]],
 ];
@@ -120,7 +120,7 @@ export default function App() {
           <p>
             Since then I've worked on both the business and the engineering side. At the Raiffeisenverband Südtirol I
             supported the digitalisation programme and the business intelligence strategy. At Konverto I build
-            ML models, MLOps pipelines with MLflow and CI/CD, Power BI reports and React/Vue front-ends.
+            ML models, MLOps pipelines with MLflow and CI/CD, Power BI reports, React/Vue front-ends and mobile apps with React Native and Expo.
           </p>
           <p>
             I like to work on my own and in an organised way, and I enjoy making complex information
