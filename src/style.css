@@ -52,3 +52,24 @@ h3 { font-size: 1.05rem; margin: 0; }
 .badge { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 
 footer { padding: 40px 0 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+@media print {
+  @page { size: A4; margin: 14mm 16mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #000; --muted: #444;
+          --line: #ccc; --accent: #0b4f96; --accent-soft: #fff; }
+  body { font-size: 10.5pt; line-height: 1.45; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .wrap { max-width: none; padding: 0; }
+  nav, header.hero .btns, footer { display: none; }
+  header.hero { padding: 0 0 10pt; }
+  .hero h1 { font-size: 20pt; margin: 4pt 0 8pt; }
+  .hero p.lead { font-size: 11pt; max-width: none; margin: 0; }
+  section { padding: 10pt 0; }
+  h2 { font-size: 14pt; margin: 0 0 8pt; break-after: avoid; }
+  .item { padding: 6pt 0; border: 0; border-radius: 0; break-inside: avoid; }
+  .timeline, .skills, .certs { gap: 4pt 16pt; }
+  .tags { gap: 4pt; margin-top: 4pt; }
+  .tags li { border: 1px solid var(--line); padding: 0 6pt; font-size: 9pt; }
+  #contact .btn { border: 0; padding: 0; background: none; color: var(--text); font-weight: 400; }
+  #contact .btn[href^="http"]::after { content: ": " attr(href); }
+  #contact .btns { flex-direction: column; gap: 2pt; }
+}
