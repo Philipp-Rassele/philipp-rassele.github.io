@@ -38,9 +38,9 @@ const certs = [
   { badge: "Microsoft · Aug 2023", title: "Azure Fundamentals" },
   { badge: "Microsoft · Aug 2022", title: "Power BI Data Analyst Associate" },
   {
-    badge: "Databricks Training · 2026", title: "Advanced Machine Learning with Databricks",
-    url: "https://www.databricks.com/training/catalog/advanced-machine-learning-with-databricks-3486",
-    text: "Scaling ML with Spark, tuning with Optuna & Ray, MLOps with MLflow, Unity Catalog, Lakeflow Jobs, Model Serving and drift monitoring.",
+    badge: "Databricks Training · 2026", title: "Advanced Machine Learning Operations",
+    url: "https://www.databricks.com/training/catalog/advanced-machine-learning-operations-3508",
+    text: "Production MLOps on Databricks: CI/CD with Declarative Automation Bundles, Lakeflow Jobs, Model Serving, A/B rollouts, monitoring and drift detection.",
   },
   {
     badge: "Databricks Training · 2026", title: "AI/BI for Data Analysts",
